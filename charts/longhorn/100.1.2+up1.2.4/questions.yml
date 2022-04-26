@@ -5,10 +5,10 @@ questions:
 - variable: image.defaultImage
   default: "true"
   description: "Use default Longhorn images or else"
-  label: Use Default Images
+  label: Failure
   type: boolean
   show_subquestion_if: false
-  group: "Longhorn Images"
+  group: "Longhorn Images goomba"
   subquestions:
   - variable: image.longhorn.manager.repository
     default: rancher/mirrored-longhornio-longhorn-manager
