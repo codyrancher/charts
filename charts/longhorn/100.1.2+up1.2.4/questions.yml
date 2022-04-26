@@ -4,7 +4,7 @@ namespace: longhorn-system
 questions:
 - variable: image.defaultImage
   default: "true"
-  description: "Use default Longhorn images"
+  description: "Use default Longhorn images or else"
   label: Use Default Images
   type: boolean
   show_subquestion_if: false
